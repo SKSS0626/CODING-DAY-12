@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int sc,ta,ns;
+	printf("Enter the subscription cost:");
+	scanf("%d",&sc);
+	printf("\nEnter the total cost:");
+	scanf("%d",&ta);
+	ns=ta/sc;
+	printf("you can take %d subscriptions",ns);
+	return 0;
+	
+	
+}
